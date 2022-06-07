@@ -1,341 +1,321 @@
- @font-face {
-     font-family: Hariston;
-     src: url(../fonts/Hariston/Hariston.woff);
-     font-weight: normal;
-}
-
-html,body{
-  height: 100%;
-  text-align: center;
-  background: #fff;
-  font-family: 'arial', sans-serif;
-
-  color: #ffcc00;
-  position: relative;
-  min-height:500px;
-}
-
-body{
-  display: flex;
-    align-items: center;
-  justify-content: center;
-
-    height: 100%;
-  width: 100%;
-
-
- background: url(../images/bg.jpg); /* FF3.6-15 */
-  background: url(../images/bg.jpg); /* Chrome10-25,Safari5.1-6 */
-  background: url(../images/bg.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  -webkit-background-size:  contain;
-  -moz-background-size:  contain;
-  -o-background-size:  contain;
-  background-size:  contain;
-
-}
-
-
-a{
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover{
-  text-decoration: none;
-  color: inherit;
-}
-input{
-	outline:none;
-}
-
-
-
-.container-bg{
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  display: block;
-  z-index: 0;
-
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+50,0.75+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#000; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
-
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  -webkit-background-size:  cover;
-  -moz-background-size:  cover;
-  -o-background-size:  cover;
-  background-size:  cover;
-}
-
-.location{
-   display: flex;
-   align-items:center;
-}
-
-button{
-  border:none;
-}
-
-
-
-
-.title {
-/*font-family: 'Vollkorn', sans-serif;*/
-font-size: 20vw;
-  font-family: Hariston,"Times New Roman", Times, serif;
-text-transform: capitalize;
-/*text-shadow: 0px 2px 6px rgba(255, 255, 255, 0.5);*/
-}
-
-.desc {
-  margin-top: 50%;
-letter-spacing: 2px;
-font-size: 1.2em;
-text-transform: lowercase;
-font-style: italic;
-margin-bottom: 0;
-}
-
-.contactButton{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  font-size: 0.875em;
-}
-
-/*#requestButton:hover{
-  background: #fff;
-}*/
-
-.contactButton a{
-  font-size: 20px;
-  background: none;
-  cursor: pointer;
-  }
-
-.contactButton button,#mailId,#requestButton{
-  padding: 10px 0;
-  }
-
-.location i{
-  text-align: right;
-  }
-
-.location h5{
-  text-align: left !important;
-  padding-left: 0;
-  }
-
-form,.location,.contactButton{
-  margin-top:2em;
-}
-
-.chatBot{
-
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-
-  align-items: center;
-  justify-content: center;
-
-}
-
-.chatBot img{
-  //float: left;
-  margin-left: 5px;
-  height: 20px;
-}
-.phone{
-  height: 26px;
-
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-
-  align-items: center;
-  justify-content: center;
-}
-.phone small,.chatBot small{
-  //float: left;
-  height: 26px;
-  margin-left: 5px;
-  line-height: 26px;
-  font-size: 14px;
-}
-
-.phone-container,.mail{
-/*  border-left: 1px solid #ddd;*/
-}
-
-
-
-#mailId{
-  text-align: center;
-  background: none;
-  border:none;
-  border-bottom:#CCC 1px dashed;
-}
-
-#requestButton{
-  margin-top: 10px;
-  border-radius: 25px 25px 25px 25px;
-  -moz-border-radius: 25px 25px 25px 25px;
-  -webkit-border-radius: 25px 25px 25px 25px;
-  border:2px solid #fff;
-  background: none;
-  font-size: 0.875em;
-  letter-spacing: 1px;
-   cursor:default !important;
-  
-}
-#requestButton.activebutton{
-	background:#fff;
-	color:#000;
-	cursor: pointer !important;
-}
-
-.footer {
-  margin-top: 2em;
-  padding-bottom: 10px;
-  font-style: 0.750em;
-  position: absolute;
-  bottom: 0;
-
-}
-
-.footer  a{
-  padding-top: 10px;
-  text-align: center;
-  color: #ffcc00;
-  }
-
-.footer-link-top a{
-
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-
-}
-
-
-.footer-link-bottom a{
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-
-.footer-link-bottom a .small{
-  text-align: center;
-}
-
-/* Fade-in */
-
-/* make keyframes that tell the start state and the end state of our object */
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in {
-  opacity:0;  /* make things invisible upon start */
-  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:2s;
-  -moz-animation-duration:2s;
-  animation-duration:2s;
-}
-
-
-@media (min-width: 1200px) {
-
-.footer-link-bottom a:first-child {
-  margin-left:-10%;
-	}
-
- }
-
- @media (max-width: 1200px) {
-
-
-	.footer-link-bottom a:first-child {
-  margin-left:-10%;
-	}
-
-}
-
-
- @media (max-width: 992px) {
-  .title{font-size: 35vw;}
-
-	.footer-link-bottom a:first-child {
-  margin-left:0;
-	}
-
-	.footer{
-	  border-top: 1px solid #555;}
-
-	  form,.location{
-	  margin-top: 3%;}
-
-	  .contactButton{
-	  margin-top: 6%;}
-
-}
-
- @media (max-width: 768px) {
-	.title{font-size: 30vw;}
-
-  .phone-icon{padding-left: 0;
-  margin-left: 0;}
-
-  .mail{
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  body{
-
-
-
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#fff; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
-
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  -webkit-background-size:  cover;
-  -moz-background-size:  cover;
-  -o-background-size:  cover;
-  background-size:  cover;
-
-}
-
-}
+ @font-face {
+
+     font-family: Hariston;
+
+     src: url(../fonts/Hariston/Hariston.woff);
+
+     font-weight: normal;
+
+}
+
+
+
+html,body{
+
+  height: 100%;
+
+  text-align: center;
+
+  background: #fff;
+
+  font-family: 'arial', sans-serif;
+
+
+
+  color: #fff;
+
+  position: relative;
+
+  min-height:500px;
+
+}
+
+
+
+body{
+
+  display: flex;
+
+    align-items: center;
+
+  justify-content: center;
+
+
+
+    height: 100%;
+
+  width: 100%;
+
+
+
+
+
+ background: url(../images/bg.jpg); /* FF3.6-15 */
+
+  background: url(../images/bg.jpg); /* Chrome10-25,Safari5.1-6 */
+
+  background: url(../images/bg.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+
+  background-position: top center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+
+
+  -webkit-background-size:  contain;
+
+  -moz-background-size:  contain;
+
+  -o-background-size:  contain;
+
+  background-size:  contain;
+
+  /* Created with https://www.css-gradient.com */
+
+
+
+
+
+}
+
+
+
+
+
+a{
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+
+
+a:hover{
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+
+
+
+
+.title {
+
+/*font-family: 'Vollkorn', sans-serif;*/
+
+font-size: 20vw;
+
+  font-family: Hariston,"Times New Roman", Times, serif;
+
+text-transform: capitalize;
+
+text-shadow: 0px 2px 6px rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+.desc {
+
+  margin-top: 50%;
+
+letter-spacing: 2px;
+
+font-size: 1.2em;
+
+text-transform: lowercase;
+
+font-style: italic;
+
+margin-bottom: 0;
+
+}
+
+
+
+
+
+
+.footer {
+
+  margin-top: 2em;
+
+  padding-bottom: 10px;
+
+  font-style: 0.750em;
+
+  position: absolute;
+
+  bottom: 0;
+
+
+
+}
+
+
+
+.footer  a{
+
+  padding-top: 10px;
+
+  text-align: center;
+
+  color: #fff;
+
+text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+
+  }
+
+
+
+
+
+
+/* Fade-in */
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+
+.fade-in {
+
+  opacity:0;  /* make things invisible upon start */
+
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+  -moz-animation:fadeIn ease-in 1;
+
+  animation:fadeIn ease-in 1;
+
+
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+  -moz-animation-fill-mode:forwards;
+
+  animation-fill-mode:forwards;
+
+
+
+  -webkit-animation-duration:2s;
+
+  -moz-animation-duration:2s;
+
+  animation-duration:2s;
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+
+
+.footer-link-bottom a:first-child {
+
+  margin-left:-10%;
+
+	}
+
+
+
+ }
+
+
+
+ @media (max-width: 1200px) {
+
+
+
+
+
+	.footer-link-bottom a:first-child {
+
+  margin-left:-10%;
+
+	}
+
+
+
+}
+
+
+
+
+
+ @media (max-width: 992px) {
+
+  .title{font-size: 35vw;}
+
+
+
+
+ @media (max-width: 768px) {
+
+	.title{font-size: 40vw;}
+
+
+.footer  a{ padding: 1.5vw 0;}
+
+
+  body{
+
+
+
+
+
+
+
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#fff; /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+
+
+
+  background-position: top center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+
+
+  -webkit-background-size:  cover;
+
+  -moz-background-size:  cover;
+
+  -o-background-size:  cover;
+
+  background-size:  cover;
+
+
+
+}
+
+
+
+}
+
