@@ -49,8 +49,8 @@ body{
 
 
 
-background-color: red;
-border: 1px solid red;
+
+
     position: absolute;
     top: 0;
     left: 0;
@@ -310,7 +310,7 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 @media (min-width: 1200px) 
 {
-  .title{ color:yellow;
+  .title{ 
    }
 
  }/* min-width: 1200px */
@@ -318,7 +318,7 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 
  @media (max-width: 1200px) {
-      .title{ font-size: 30vw;color:purple;
+      .title{ font-size: 30vw;
        }
 
 
@@ -338,7 +338,7 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
  {
 
     .title{font-size: 35vw;
-      color:red;
+
      }
 
 
@@ -348,7 +348,7 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
  {
 
   .title{font-size: 45vw;
-    color:blue;
+  
    }
 
 
