@@ -356,11 +356,12 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 #back1 {
 
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg1.jpg),#fff; /* FF3.6-15 */
+  background: -moz-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg1.jpg),#fff; /* FF3.6-15 */
 
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg1.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg1.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg1.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg1.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 
             -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -373,11 +374,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 #back2 {
 
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg2.jpg),#fff; /* FF3.6-15 */
+  background: -moz-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg2.jpg),#fff; /* FF3.6-15 */
 
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg2.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg2.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg2.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg2.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
             -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -389,11 +390,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 #back3 {
 
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg3.jpg),#fff; /* FF3.6-15 */
+  background: -moz-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg3.jpg),#fff; /* FF3.6-15 */
 
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg3.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg3.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg3.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg3.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
             -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -403,11 +404,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 #back4 {
 
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg4.jpg),#fff; /* FF3.6-15 */
+  background: -moz-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg4.jpg),#fff; /* FF3.6-15 */
 
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg4.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg4.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg4.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg4.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
             -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -419,11 +420,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 #back5 {
 
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.75) 100%),url(../images/bg5.jpg),#fff; /* FF3.6-15 */
+background: -moz-linear-gradient(top,rgba(0,0,0,0) 70%, rgba(0,0,0,.75) 100%),url(../images/bg5.jpg),#fff; /* FF3.6-15 */
 
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg5.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 70%,rgba(0,0,0,.75) 100%),url(../images/bg5.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg5.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 70%,rgba(0,0,0,.75) 100%),url(../images/bg5.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
             -webkit-background-size: cover;
     -moz-background-size: cover;
