@@ -12,6 +12,7 @@
 
 html,body{
 
+  height: 100%;
 
   text-align: center;
 
@@ -24,8 +25,6 @@ html,body{
   color: #fff;
 
   position: relative;
-
-
 }
 
 
@@ -47,10 +46,11 @@ body{
 
 
 .backgroundimg {
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+
+
+
+background-color: red;
+border: 1px solid red;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,12 +61,18 @@ body{
 
 #back1 {
     background: url("../images/bg1.jpg") no-repeat top center fixed;
+    
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
 }
 
 #back2 {
     background: url("../images/bg2.jpg") no-repeat top center fixed;
-	    -webkit-background-size: contain;
+
+        -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
@@ -75,14 +81,29 @@ body{
 
 #back3 {
     background: url("../images/bg3.jpg") no-repeat top center fixed;
+        -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
 }
 
 #back4 {
     background: url("../images/bg4.jpg") no-repeat top center fixed;
+        -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
 }
 
 #back5 {
     background: url("../images/bg5.jpg") no-repeat top center fixed;
+        -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+
 }
 
 @keyframes backgroundchangeFadeInOut {
@@ -287,42 +308,48 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) 
+{
   .title{ color:yellow;
-	 }
+   }
 
- }
+ }/* min-width: 1200px */
 
 
 
  @media (max-width: 1200px) {
-.title{ font-size: 45vw;color:purple;
-	 }
-
-	}
+      .title{ font-size: 30vw;color:purple;
+       }
 
 
+      
 
-}
-
+  }/* max-width: 1200px */
 
 
 
 
- @media (max-width: 992px) {
-
-  .title{font-size: 60vw;
-	  color:red;
-	 }
 
 
 
 
- @media (max-width: 768px) {
 
-	.title{font-size: 60vw;
-		color:blue;
-	 }
+ @media (max-width: 992px) /* max-width: 992px */
+ {
+
+    .title{font-size: 35vw;
+      color:red;
+     }
+
+
+}/* max-width: 992px */
+
+ @media (max-width: 768px) /* max-width: 768px */
+ {
+
+  .title{font-size: 45vw;
+    color:blue;
+   }
 
 
 .footer  a{ padding: 1.5vw 0;}
@@ -334,6 +361,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg1.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg1.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 
 
@@ -347,6 +379,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg2.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 
 }
 
@@ -357,6 +394,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg3.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg3.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #back4 {
@@ -366,6 +408,11 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg4.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg4.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -377,9 +424,14 @@ text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
   background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg5.jpg),#fff; /* Chrome10-25,Safari5.1-6 */
 
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.75) 100%),url(../images/bg5.jpg),#fff; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
 
-}
+}/* max-width: 768px */
 
